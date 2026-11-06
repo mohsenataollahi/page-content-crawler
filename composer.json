@@ -1,0 +1,26 @@
+{
+    "name": "page-content-crawler/page-content-crawler",
+    "description": "Fetch a URL, extract one element by CSS selector, and store it with its update time on a selected page.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.1",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "symfony/css-selector": "^6.4"
+    },
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
